@@ -1,0 +1,76 @@
+nav{
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgb(0, 0, 0,0.1);
+}
+.logo{
+  max-width: 200px;
+}
+section{
+  padding: 20px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+.gridImage{
+  max-width: 400px;
+  align-self: center;
+}
+.hero-header{
+  margin-bottom: 16px;
+}
+.hero-text{
+  margin-top: 0;
+}
+.card{
+  min-width: 175px;
+  max-width: 175px;
+  font-size: 12px;
+  position: relative;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: calc(175px*3);
+}
+.spot{
+  position: absolute;
+  background-color: white;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.katie{
+  width: 100%;
+  border-radius: 9px;
+}
+.cardStats{
+  display: flex;
+  align-items: center;
+}
+.grey{
+  color: #918E9B;
+}
+.price{
+  font-weight: bold;
+}
+
+.star{
+  height: 14px;
+}
+@media only screen and (max-width:600px){
+  .cards{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    flex-wrap: nowrap;
+  }
+  
+}
